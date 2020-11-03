@@ -1,0 +1,101 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(163,2,255,1) 100%);
+}
+
+
+.box{
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px;
+}
+
+.box-cad{
+    width: 500px;
+    height: 680px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cover{
+
+    height: 240px;
+    text-align: center;  
+}
+
+.cover-top{
+
+    margin-top: 25px;
+    height: 170px;
+    text-align: center;
+ 
+}
+
+.form-title{
+
+    margin-top: -20px;
+    font-size: 24px;
+}
+
+form{
+
+    margin: 10px 20px 20px;
+    width: calc(100% - 40px);
+    padding: 10px 10px;
+    align-items: center;
+}
+
+input{
+
+    margin: 5px 20px;
+    width: calc(100% - 40px);
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+}
+
+.btn{
+
+    width: calc(100% - 40px);
+    font-weight: bold;
+    margin: 5px;
+    background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(163,2,255,1) 100%);
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(95, 158, 160, 1.4);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.msgero{
+
+    color: red;
+}
+
+#msg-sucesso{
+    
+    color: rgb(34, 139, 34)
+    
+}

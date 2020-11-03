@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(0,155,255);
+    background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(163,2,255,1) 100%);
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+header .container img{
+    margin-top: -15px;
+    width: 100px;
+}
+.cabeca h1{
+    margin-top: -15px;
+    font-weight: 400;
+}
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+section .container{
+    display: flex;
+}
+.left{
+    background-color: white;
+    width: 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.left h3{
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color: #3b3b3b;
+    text-align: center;
+    border-radius: 5px;
+}
+.right{
+    background-color: white;
+    margin-left: 20px;
+    width: 85%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.form-box{
+    margin-top: 70px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.form-box form{
+    width: 100%;
+}
+
+.row{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #1c1c1c;
+    margin: 10px 0;
+}
+.row input{
+    font-family: Montserrat;
+    margin-left: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+
+}
+.row-center{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.row-center input{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+}
+
+@media(max-width: 425px){
+    section .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left {
+        width: 100%;
+        max-width: 100%;
+    }
+    .right {
+        width: 100%;
+        margin: 0;
+        height: 500px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+}

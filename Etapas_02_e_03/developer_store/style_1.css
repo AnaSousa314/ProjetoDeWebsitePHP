@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.itens{
+   font-size: 14px;
+   margin-top: 40px;
+   border-radius: 10px;
+}
+
+.nario{
+    margin-top: 70px;
+    border: 1px;
+    display: flex;
+    font-size: 13.5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    color: DarkSlateGray;
+}
